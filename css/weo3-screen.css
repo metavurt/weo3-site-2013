@@ -67,6 +67,11 @@ blockquote {
 	margin-bottom: 0.8em;
 }
 
+	blockquote a {
+		color: #369;
+		border: none;
+	}
+
 blockquote:first-of-type {
 	text-indent: -10px;
 }
@@ -114,7 +119,7 @@ a {
 	.weo3-brand img {
 		max-height: 96%;
 		max-width: 96%;
-		opacity: 0.8;
+		opacity: 0.5;
 		position: fixed;
 		left: 1em;
 		-webkit-transition: all 0.25s ease;
